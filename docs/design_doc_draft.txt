@@ -1,0 +1,42 @@
+Build personal portfolio site
+	Basics:
+		-	html
+		-	css
+		-	js
+	Include Ruby/RoR?
+	
+Homepage
+	Brief introduction to site
+	Overview of "how I got here"
+Contact Info.
+	E-mail addresses, cell
+	Schedule (class schedule, most reasonable time to e-mail/call me)
+	LinkedIn, FB, Twitter to get ahold of me
+	Include on-site form that e-mails site-based e-mail account
+	Segregate links for business/personal
+Resume/CV
+	self-explanatory
+	include in-browser scrollable and downloadable/printable pdf
+Links to:
+	Professional
+		GitHub
+		LinkedIn
+		cisprod
+	Personal
+		FaceBook
+		Twitter
+		Soundcloud
+		Discogs
+Project/classwork pages
+	Link to cisprod index
+	Seperate pages for each semester, each class
+	Host coursework on-site or on GitHub, link notable examples
+	in-browser compiler for shorter programs?
+About me
+	More in-depth than homepage
+	Include personal and professional pursuits/hobbies
+Sitemap
+	Links everywhere
+Blog (subsite?)
+	Built on Ruby/RoR
+	Personal/professional blog
