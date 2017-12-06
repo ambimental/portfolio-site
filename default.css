@@ -1,0 +1,12 @@
+/* default css for portfolio */
+
+html, body {
+	margin: 0 auto;
+	height: 100%;
+	padding: 0;
+	font-size: 1em;
+	color: #3A2B11;
+	background: #B2A489;
+	
+	
+}
