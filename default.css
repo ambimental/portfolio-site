@@ -3,10 +3,41 @@
 html, body {
 	margin: 0 auto;
 	height: 100%;
+	width: 85%;
 	padding: 0;
 	font-size: 1em;
-	color: #3A2B11;
-	background: #B2A489;
+	color: #432D11;
+	background: #BDA78A;
 	
 	
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+div {
+	font-family: 'Roboto', sans-serif;
+	margin:  10px auto;
+	padding: 5px;
+}
+
+.sideNav {
+	height: 100%;
+	margin: 0;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #947E61;
+}
+
+.sideNav a {
+	padding: 5px;
+	color: #432D11;
+	font-size: 1.414em;
+	display: block;
+	text-align: center;
+
 }
