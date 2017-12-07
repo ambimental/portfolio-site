@@ -7,9 +7,7 @@ html, body {
 	padding: 0;
 	font-size: 1em;
 	color: #432D11;
-	background: #BDA78A;
-	
-	
+	background: #BDA78A;	
 }
 
 h1 {
@@ -22,22 +20,57 @@ div {
 	padding: 5px;
 }
 
+footer {
+	font-size: 0.707em;
+	font-family: 'Roboto', sans-serif;
+	margin:  10px auto;
+	padding: 5px;
+	text-align: right;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
 .sideNav {
 	height: 100%;
 	margin: 0;
-	width: 160px;
+	width: 10px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
 	background-color: #947E61;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 .sideNav a {
+
 	padding: 5px;
 	color: #432D11;
 	font-size: 1.414em;
 	display: block;
 	text-align: center;
+	transition: 0.3s;
+}
 
+.sideNav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sideNav .closeNav {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.main {
+    transition: margin-left .5s;
+    padding: 20px;
 }
