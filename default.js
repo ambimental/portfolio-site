@@ -2,6 +2,7 @@
 //	default js file for portfolio
 
 window.onload =function() {
+	headerGen();
 	footerGen();
 	navGen();
 
@@ -31,6 +32,12 @@ function $(id) {
 	return document.getElementById(id);
 }
 
+function headerGen() {
+	$('head').innerHTML =
+		'<h1>John L. Georgvich</h1>' +
+		'<hr />';
+}
+
 function footerGen() {
 	$('pFooter').innerHTML = 
 		'<hr />' + 
@@ -44,5 +51,6 @@ function footerGen() {
 function navGen() {
 	$('sideNav').innerHTML = 
 		'<a class="navLink" href="index.html">Index</a>' +
-		'<a class="navLink" href="contact.html">Contact</a>';
+		'<a class="navLink" href="contact.html">Contact</a>' +
+		'<a class="navLink" href="about_me.html">About Me</a>';
 }

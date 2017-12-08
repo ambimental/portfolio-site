@@ -12,6 +12,12 @@ html, body {
 
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
+	text-align: left;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
 }
 
 div {
@@ -20,12 +26,32 @@ div {
 	padding: 5px;
 }
 
+header {
+	/*font-size: 2.827em;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 10px auto;
+	padding: 5px;
+}
+
+header hr {
+	width: 100%;
+}
+
 footer {
 	font-size: 0.707em;
 	font-family: 'Roboto', sans-serif;
 	margin:  10px auto;
 	padding: 5px;
 	text-align: right;
+}
+
+footer hr {
+	width: 100%;
+}
+
+hr {
+	text-align: right;
+	width: 50%;
 }
 
 #main {
