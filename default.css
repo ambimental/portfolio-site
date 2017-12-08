@@ -47,13 +47,13 @@ footer {
 }
 
 .sideNav a {
-
 	padding: 5px;
 	color: #432D11;
 	font-size: 1.414em;
 	display: block;
 	text-align: center;
 	transition: 0.3s;
+	visibility: hidden;
 }
 
 .sideNav a:hover {

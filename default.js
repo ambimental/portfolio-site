@@ -7,11 +7,21 @@ window.onload =function() {
 
 	$('sideNav').onmouseover = function() {
 		$('sideNav').style.width = "160px";
+		var links = document.getElementsByClassName("navLink");
+		
+		for (var i = 0; i < links.length; i++) {
+			links[i].style.visibility = "visible";
+		}
 		// $('navLink').style.visibility = "visible";
 	}
 
 	$('sideNav').onmouseout = function() {
 		$('sideNav').style.width = "10px";
+		var links = document.getElementsByClassName("navLink");
+		
+		for (var i = 0; i < links.length; i++) {
+			links[i].style.visibility = "hidden";
+		}
 		// $('navLink').style.visibility = "hidden";
 
 	}
