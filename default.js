@@ -35,6 +35,8 @@ function $(id) {
 function headerGen() {
 	$('head').innerHTML =
 		'<h1>John L. Georgvich</h1>' +
+		'<i>Computer Information Systems major, Computer Science minor</i> <br />' +
+		'<i>Aspiring software/web developer</i>' +
 		'<hr />';
 }
 
@@ -52,5 +54,6 @@ function navGen() {
 	$('sideNav').innerHTML = 
 		'<a class="navLink" href="index.html">Index</a>' +
 		'<a class="navLink" href="contact.html">Contact</a>' +
-		'<a class="navLink" href="about_me.html">About Me</a>';
+		'<a class="navLink" href="about_me.html">About Me</a>' +
+		'<a class="navLink" href="resume.html">Resume and CV</a>';
 }

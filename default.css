@@ -12,6 +12,7 @@ html, body {
 
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 0;
 	text-align: left;
 }
 
@@ -22,6 +23,7 @@ h2 {
 
 div {
 	font-family: 'Roboto', sans-serif;
+	width: 70%;
 	margin:  10px auto;
 	padding: 5px;
 }
