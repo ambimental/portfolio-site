@@ -7,19 +7,11 @@ html, body {
 	padding: 0;
 	font-size: 1em;
 	color: #432D11;
-<<<<<<< HEAD
-	background: #BDA78A;
-	
-	
-=======
 	background: #BDA78A;	
->>>>>>> dev
 }
 
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
-<<<<<<< HEAD
-=======
 	margin-bottom: 0;
 	text-align: left;
 }
@@ -27,15 +19,10 @@ h1 {
 h2 {
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
->>>>>>> dev
 }
 
 div {
 	font-family: 'Roboto', sans-serif;
-<<<<<<< HEAD
-	margin:  10px auto;
-	padding: 5px;
-=======
 	width: 70%;
 	margin:  10px auto;
 	padding: 5px;
@@ -72,27 +59,19 @@ hr {
 #main {
     transition: margin-left .5s;
     padding: 20px;
->>>>>>> dev
 }
 
 .sideNav {
 	height: 100%;
 	margin: 0;
-<<<<<<< HEAD
-	width: 160px;
-=======
 	width: 10px;
->>>>>>> dev
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
 	background-color: #947E61;
-<<<<<<< HEAD
-=======
 	overflow-x: hidden; /* Disable horizontal scroll */
 	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
->>>>>>> dev
 }
 
 .sideNav a {
@@ -101,9 +80,6 @@ hr {
 	font-size: 1.414em;
 	display: block;
 	text-align: center;
-<<<<<<< HEAD
-
-=======
 	transition: 0.3s;
 	visibility: hidden;
 }
@@ -125,5 +101,4 @@ hr {
 .main {
     transition: margin-left .5s;
     padding: 20px;
->>>>>>> dev
 }
